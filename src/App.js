@@ -53,7 +53,7 @@ function App() {
             </button>
           ))}
         </div>
-        <article className="jobs-info">
+        <article className='jobs-info'>
           <h3>{title}</h3>
           <h4>{company}</h4>
           <p className="job-date">{dates}</p>
