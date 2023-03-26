@@ -6,7 +6,6 @@ import './App.css';
 const apiUrl = 'https://course-api.com/react-tabs-project';
 
 function App() {
-  const [loading, setLoading] = useState(true);
   const [jobs, setJobs] = useState([]);
   const [value, setValue] = useState(0);
   const [loading, setLoading] = useState(true);
