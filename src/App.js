@@ -24,6 +24,10 @@ function App() {
     const res = await fetch(apiUrl);
     const jobs = await res.json();
     return jobs;
+    } catch (err) {
+      console.log(err);
+      setLoading(false);
+    }
   };
 
   if (loading) {
