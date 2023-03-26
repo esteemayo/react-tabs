@@ -41,8 +41,8 @@ function App() {
         <h2>Experience</h2>
         <div className='underline'></div>
       </div>
-      <div className="jobs-center">
-        <div className="btn-container">
+      <div className='jobs-center'>
+        <div className='btn-container'>
           {jobs.map((item, index) => (
             <button
               key={item.id}
