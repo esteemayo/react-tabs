@@ -58,8 +58,8 @@ function App() {
           <h4>{company}</h4>
           <p className='job-date'>{dates}</p>
           {duties.map((duty, i) => (
-            <div key={i} className="job-desc">
-              <FaAngleDoubleRight className="job-icon" />
+            <div key={i} className='job-desc'>
+              <FaAngleDoubleRight className='job-icon' />
               <p>{duty}</p>
             </div>
           ))}
