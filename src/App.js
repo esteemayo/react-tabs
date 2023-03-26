@@ -20,6 +20,7 @@ function App() {
   }, []);
 
   const fetchJobs = async () => {
+    try {
     const res = await fetch(apiUrl);
     const jobs = await res.json();
     return jobs;
