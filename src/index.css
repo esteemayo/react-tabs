@@ -297,7 +297,7 @@ Jobs
 
 .btn:hover {
   color: var(--clr-primary-1);
-  background: var(--clr-primary-8);
+  background-color: var(--clr-primary-8);
 }
 
 .center-btn {
