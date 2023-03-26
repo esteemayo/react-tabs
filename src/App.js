@@ -39,7 +39,7 @@ function App() {
     <section className='section'>
       <div className='title'>
         <h2>Experience</h2>
-        <div className="underline"></div>
+        <div className='underline'></div>
       </div>
       <div className="jobs-center">
         <div className="btn-container">
