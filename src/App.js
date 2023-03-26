@@ -9,6 +9,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [jobs, setJobs] = useState([]);
   const [value, setValue] = useState(0);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     (async function getJobs() {
