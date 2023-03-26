@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    (async function getJobs() {
+    (async () => {
       setLoading(true);
       const jobsFromServer = await fetchJobs();
       setJobs(jobsFromServer);
