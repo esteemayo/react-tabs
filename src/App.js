@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   const fetchJobs = async () => {
-    const res = await fetch(apiEndpoint);
+    const res = await fetch(apiUrl);
     const jobs = await res.json();
     return jobs;
   };
